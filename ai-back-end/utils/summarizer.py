@@ -90,11 +90,12 @@ def summarize_transcription(transcription_text, title, description):
             opportunities_to_act_section,
         )
     except Exception as e:
-            print(f"Error parsing AI response: {e}")
-            return (
+        print(f"Error parsing AI response: {e}")
+
+        return (
                 "Unable to parse story highlights.",
-                "No key takeaways found.",å
+                "No key takeaways found.",
                 "No tools and resources provided.",
                 "No opportunities to actprovided.",
-            )
-ç
+        )
+

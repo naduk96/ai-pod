@@ -2,4 +2,11 @@ requests
 whisper
 pytube
 tiktoken
+flask
+flask_cors
+json
+os
+re
+
+
 
