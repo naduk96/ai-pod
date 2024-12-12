@@ -1,0 +1,61 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5; /* Pastel background */
+  padding: 1rem 2rem;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays on top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d4af37; /* Gold pastel */
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #2e7d32; /* Green pastel */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff7043; /* Red pastel for hover */
+}
+
+.nav-button {
+  background-color: #2e7d32; /* Green pastel */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #1b5e20; /* Darker green pastel */
+}

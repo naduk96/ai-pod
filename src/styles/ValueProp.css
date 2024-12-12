@@ -1,0 +1,43 @@
+.value-prop-section {
+    background-color: #f7f2e7; /* A pastel gold background for an African vibe */
+    /* padding: 1rem; */
+    /* border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    color: #1b4332; /* Dark green for a vibrant contrast */
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .reasons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .reason-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #2d6a4f; /* Earthy green for text */
+  }
+
+
+  
+.reason-item .emoji {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* .reason-item .text {
+    flex: 1;
+    text-align: left;
+  }  */

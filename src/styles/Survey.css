@@ -1,0 +1,80 @@
+.survey-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.question-container {
+  text-align: center;
+  margin-bottom: 2rem; /* Add space below the question */
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem; /* Add space below the options */
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.option-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.option-button.selected {
+  background-color: rgb(255, 205, 0);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 1rem; /* Add space between the buttons */
+  margin-top: 2rem; /* Add space above the buttons */
+}
+
+.back-button{
+  background-color:white;
+}
+
+.back-button,
+.next-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 205, 0);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.back-button:hover,
+.next-button:hover {
+  background-color: #e07a5f;
+}
+
+.next-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}

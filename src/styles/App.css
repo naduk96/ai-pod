@@ -1,0 +1,22 @@
+/* App Styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Adjust the main content area */
+.main {
+  position: relative;
+  flex: 1; /* Take up the remaining space */
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Ensures text aligns properly */
+}
+
+/* Add space to prevent navbar overlap */
+.main-content {
+  margin-top: 4rem; /* Matches the fixed navbar height */
+  padding: 1rem; /* Adds padding for inner content */
+}

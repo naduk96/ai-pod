@@ -1,0 +1,100 @@
+.newsletter-page {
+    padding: 2rem;
+    font-family: 'Clash Grotesk', sans-serif;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .page-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #090a0b;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .newsletter-container {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .newsletter-header h1 {
+    font-size: 2rem;
+    color: #050505;
+    margin: 0;
+  }
+  
+  .newsletter-header p {
+    font-size: 1rem;
+    color: #050505;
+  }
+  
+  .newsletter-summary h2,
+  .newsletter-takeaways h2 {
+    font-size: 1.5rem;
+    color: #050404;
+    margin-bottom: 0.5rem;
+  }
+
+  .newsletter-summary p {
+    font-size: 1rem;
+    font-family: 'Clash Grotesk', sans-serif;
+  }
+  
+  .newsletter-takeaways ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+  }
+  
+  .newsletter-takeaways li {
+    /* margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    background: #e8f5e9;
+    border-left: 4px solid #81c784;
+    border-radius: 4px; */
+  }
+
+  .newsletter-africa p {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+  }
+  
+  .newsletter-footer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .newsletter-footer a {
+    font-size: 1rem;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .newsletter-footer a:hover {
+    text-decoration: underline;
+  }
+  

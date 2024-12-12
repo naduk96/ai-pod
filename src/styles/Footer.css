@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #FAD7A0; /* Pastel Gold */
+  color: #5D6D7E; /* Neutral Gray */
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #5D6D7E;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

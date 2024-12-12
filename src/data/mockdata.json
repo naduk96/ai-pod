@@ -1,0 +1,35 @@
+[
+    {
+      "id": "1",
+      "title": "Vertical AI Agents Could Be 10X Bigger Than SaaS",
+      "thumbnail": "url_to_thumbnail.jpg",
+      "excerpt": "Learn how vertical AI is reshaping industries and the potential it holds.",
+      "tags": ["Entrepreneurship", "AI"],
+      "link": "/episode/1"
+    },
+    {
+      "id": "2",
+      "title": "How To Scale Your Business to $10M in Revenue",
+      "thumbnail": "url_to_thumbnail2.jpg",
+      "excerpt": "Insights from seasoned founders on scaling efficiently.",
+      "tags": ["Finance", "Growth"],
+      "link": "/episode/2"
+    },
+    {
+      "id": "3",
+      "title": "Crypto x AI Agents: The Definitive Podcast,",
+      "thumbnail": "url_to_thumbnail2.jpg",
+      "excerpt": "In an electrifying episode of the Delphi podcast, host Tommy brings together .... world of crypto and AI agents,",
+      "tags": ["Finance", "Growth"],
+      "link": "/episode/3"
+    },
+    {
+      "id": "4",
+      "title": "How to build a brand in 7mins | Gary Vaynerchuk",
+      "thumbnail": "url_to_thumbnail2.jpg",
+      "excerpt": "In a rapid-fire discussion, Gary Vaynerchuk, the CEO of VaynerMedia, emphasizes the crucial connection",
+      "tags": ["Finance", "Growth"],
+      "link": "/episode/4"
+    }
+  ]
+  

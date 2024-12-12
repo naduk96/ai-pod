@@ -1,0 +1,16 @@
+.progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0; /* Light grey */
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #81b29a; /* Muted green */
+    width: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  

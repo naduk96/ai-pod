@@ -1,0 +1,36 @@
+.newsletter-example {
+    background-color: #ffffff; /* Pastel Gold */
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    border-radius: 12px;
+    color: #5D6D7E; /* Neutral Gray */
+    font-size: 1rem; */
+
+
+  }
+  
+  .newsletter-title {
+    font-size: 1.8rem;
+    color: #F5B7B1; /* Pastel Red */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .newsletter-link {
+    color: #5D6D7E;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .newsletter-link:hover {
+    color: #34495E; /* Darker Gray */
+  }
+  

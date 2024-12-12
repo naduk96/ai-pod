@@ -1,0 +1,26 @@
+.home-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensures the page fills the screen */
+    display: flex; /* Stack elements vertically */
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+  
+  .home-page h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .podcast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Limit to 3 items per row */
+    gap: 2rem; /* Add spacing between grid items */
+    justify-content: center; /* Center the grid content */
+    align-items: start; /* Align items to the top */
+    padding: 2rem; /* Add padding around the grid */
+    margin: 0 auto; /* Center the grid within the container */
+    max-width: 1200px; /* Optional: Add a max-width to limit grid width */
+}

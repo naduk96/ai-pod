@@ -1,0 +1,75 @@
+/* SubscribeForm.css */
+
+.subscribe-form-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #1a202c; /* Dark text */
+  }
+  
+  .subscribe-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribe-description {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #040404; /* Grayish text */
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .whatsapp-icon {
+    display: flex;
+    padding: 0.2rem 1rem;
+
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f7fafc; /* Light gray background */
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .subscribe-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background: none;
+    color: #1a202c;
+  }
+  
+  .subscribe-input::placeholder {
+    color: #a0aec0; /* Placeholder gray */
+  }
+  
+  .subscribe-button {
+    background-color: #ecc94b; /* Pastel gold */
+    color: #1a202c; /* Dark text */
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0; /* Remove button roundness */
+  }
+  
+  .subscribe-button:hover {
+    background-color: #d4af37; /* Darker gold on hover */
+  }
+  
