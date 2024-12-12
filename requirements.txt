@@ -1,0 +1,5 @@
+requests
+whisper
+pytube
+tiktoken
+
