@@ -17,15 +17,13 @@ def download_audio_from_youtube(url, output_dir):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-        # Configure yt-dlp options
+        # Configure yt-dlp options for direct mp3 download
         ydl_opts = {
-            'format': 'bestaudio/best',
-            'outtmpl': f'{output_dir}/%(title)s.%(ext)s',
-            'postprocessors': [{
-                'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'mp3',
-                'preferredquality': '192',
-            }],
+            'format': 'm4a/bestaudio/best',
+            'outtmpl': f'{output_dir}/%(title)s.mp3',
+            'extract_audio': True,
+            'audio_format': 'mp3',
+            'audio_quality': '192K',
         }
 
         # Download the audio
