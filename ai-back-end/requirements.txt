@@ -1,12 +1,7 @@
+
 requests
-whisper
+openai-whisper
 pytube
 tiktoken
 flask
 flask_cors
-json
-os
-re
-
-
-
