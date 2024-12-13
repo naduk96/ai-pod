@@ -1,0 +1,9 @@
+
+modules = ["python-3.12"]
+run = "cd ai-back-end && python api.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "cd ai-back-end && python api.py"]
